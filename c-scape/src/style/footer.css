@@ -1,0 +1,13 @@
+.footer {
+    padding: 20rem;
+    background-color: black;
+    max-width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+
+.info {
+    color: white;
+    text-align: center;
+}
