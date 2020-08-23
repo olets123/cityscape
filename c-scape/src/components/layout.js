@@ -17,10 +17,7 @@ export default function Layout({ children }) {
       <div>
     <div className="navbar">
       <header >
-        <Link to="/">
-            <h3>CityScape</h3>
-        </Link>
-        <ul style={{ listStyle: `none`, float: `right` }}>
+        <ul style={{ listStyle: `none` }}>
           <ListLink to="/">Home</ListLink>
           <ListLink to="/destinations/">Destinations</ListLink>
           <ListLink to="/about/">About</ListLink>

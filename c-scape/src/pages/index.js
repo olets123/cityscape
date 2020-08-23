@@ -1,6 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import Header from "../components/header"
+
 
 // Styles
 import '../style/index.css';
@@ -10,6 +12,7 @@ import Image1 from "../images/toronto.jpg"
 export default function Home() {
   return (
     <Layout>
+      <Header />
     <div className="frontPage">
       <h1 className="mainHeader">CityScape</h1>
       <h3 className="intro">The ultimate city guide</h3>

@@ -6,6 +6,22 @@ html {
     width: 100%;
 }
 
+h2 {
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    font-family: 'Georgia';
+    position: absolute;
+    float: center;
+    padding: 1rem;
+    top: 22rem;
+    left: 48%;
+    color: lightgrey;
+}
+
+.frontPage {
+    background: rgb(255, 255, 255);
+}
+
 .frontPic img {
     position: absolute;
     top: 8rem;
@@ -22,10 +38,13 @@ html {
 
 .mainHeader {
     margin: 2.0rem;
-    margin-left: -2.5rem;
+    margin-left: -6.5rem;
     padding: 15.0rem;
-    font-size: 8.5rem;
+    font-size: 9.5rem;
     font-family: 'Georgia';
+    color: white;
+    -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
     max-width: 50%;
     padding-bottom: 10px;
     border-bottom: 2px solid lightgray;
