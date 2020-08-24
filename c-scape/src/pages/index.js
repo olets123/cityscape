@@ -1,5 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
+//import { Link } from "gatsby"
+import Card from 'react-bootstrap/Card'
+import CardGroup from 'react-bootstrap/CardGroup'
 import Layout from "../components/layout"
 import Header from "../components/header"
 
@@ -7,28 +9,78 @@ import Header from "../components/header"
 // Styles
 import '../style/index.css';
 
-import Image1 from "../images/toronto.jpg"
+// Images
+//import Image1 from "../images/toronto.jpg"
+import Image2 from "../images/LA.jpg"
+import Image3 from "../images/toronto2.jpg"
+import Image4 from "../images/Tokyo.jpg"
+
+
+
+/** <img src={Image1} alt="main" /> */
 
 export default function Home() {
+  
   return (
+    
     <Layout>
       <Header />
     <div className="frontPage">
       <h1 className="mainHeader">CityScape</h1>
-      <h3 className="intro">The ultimate city guide</h3>
-      <p className="paragraph">Whether we know it or not, we are natural-born explorers. There are many reasons why
-we explore. From birth we learn about life and how it works by exploring. No one can
-be satisfied for very long without exploring. Whether you are talking to someone next to
-you or looking around the room, you are exploring. Exploration is the act of searching for the purpose of discovery of information or resources. Exploration occurs in all non-sessile animal species, including humans. In human history, its most dramatic rise was during the Age of Discovery when European explorers sailed and charted much of the rest of the world for a variety of reasons. Since then, major explorations after the Age of Discovery have occurred for reasons mostly aimed at information discovery.</p>
+      <h3 className="intro"></h3>
+      <p className="paragraph"></p>
       <div className="frontPic">
-      <img src={Image1} alt="main" />
       </div>
       <div className="cards">
+      <CardGroup>
+    <Card>
+      
+    <Card.Img src={Image2} alt="main" variant="top" />
+    <Card.Body>
+      <Card.Title>Los Angeles</Card.Title>
+      <Card.Text>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This content is a little bit longer.
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+  <Card.Img src={Image3} alt="main" variant="top" />
+    
+    <Card.Body>
+      <Card.Title>Toronto</Card.Title>
+      <Card.Text>
+        This card has supporting text below as a natural lead-in to additional
+        content.{' '}
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+  <Card>
+  <Card.Img src={Image4} alt="main" variant="top" />
+    
+    <Card.Body>
+      <Card.Title>Tokyo</Card.Title>
+      <Card.Text>
+        This is a wider card with supporting text below as a natural lead-in to
+        additional content. This card has even longer content than the first to
+        show that equal height action.
+      </Card.Text>
+    </Card.Body>
+    <Card.Footer>
+      <small className="text-muted">Last updated 3 mins ago</small>
+    </Card.Footer>
+  </Card>
+</CardGroup>
 
       <p className="paragraph"></p> 
       </div>
       </div>
-  </Layout>
-  
+  </Layout> 
   )
 }

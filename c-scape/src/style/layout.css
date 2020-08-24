@@ -4,9 +4,10 @@ html {
 }
 
 header {
+    margin-top: -40px;
     text-align: center;
     position: absolute;
-    left: 40%;
+    left: 35%;
     float: right !important;
 }
 
@@ -34,14 +35,14 @@ h3 {
 .navList {
     display: inline-block;
     color:black;
-    padding-right: 1.1rem;
+    padding-right: 1.2rem;
     text-align: center;
 
 }
 
 
 .navList a{
-    font-size: 1.2rem;
+    font-size: 1.8rem;
     color: black;
     text-decoration: none;
     outline: none;
