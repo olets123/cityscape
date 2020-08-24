@@ -2,6 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import "../style/layout.css"
 import Footer from "../components/footer"
+import Card from 'react-bootstrap/Card'
+import ImgCards from '../components/ImgCards'
+
 
 // import images
 //import Picture1 from "../images/scrapers.jpg"
@@ -30,8 +33,10 @@ export default function Layout({ children }) {
     <h1 className="mainHeader2">CityScape</h1>
     </div>
     <div className="content">
+  
     </div>
     < Footer />
     </div>
   )
 }
+  /*< ImgCards />*/

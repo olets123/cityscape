@@ -1,0 +1,7 @@
+img.card-img {
+   height: 370px;
+   width: 1200px;
+   object-fit: cover;
+   object-position: 30% 30%; /* default value: image is centered*/
+   object-position: 30 30; /* positioned top left of the content box */
+}

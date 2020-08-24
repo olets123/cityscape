@@ -6,6 +6,7 @@ import Layout from "../components/layout"
 import Header from "../components/header"
 
 
+
 // Styles
 import '../style/index.css';
 
@@ -77,10 +78,11 @@ export default function Home() {
     </Card.Footer>
   </Card>
 </CardGroup>
-
       <p className="paragraph"></p> 
+      
       </div>
       </div>
   </Layout> 
+  
   )
 }

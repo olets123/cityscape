@@ -57,10 +57,10 @@ h3 {
 
 
 .content {
-    
+    margin-top: -18rem;
     padding: 20rem;
     max-width: 100%;
-    background-color: lightblue;
+    
 }
 
 .image {
